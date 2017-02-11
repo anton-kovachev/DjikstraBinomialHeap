@@ -18,7 +18,7 @@ public class Main {
     public static void main(String[] args) throws FileNotFoundException {
         // TODO code application logic here
         Djikstra d = new Djikstra();
-        d.ReadGraphFromFile("C:/Users/Anton/Documents/NetBeansProjects/Djikstra/src/djikstra/graph.txt");
+        d.ReadGraphFromFile("./graph.txt");
         d.findShortestPathFrom(2);
         d.findShortestPathFrom(4);
     }
